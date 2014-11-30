@@ -12,7 +12,7 @@ def prime_numbers(limit):
     is_number_prime = True
 
     yield 2
-    while number < limit:
+    while number <= limit:
         if is_number_prime:
             primes.append(number)
             yield number
