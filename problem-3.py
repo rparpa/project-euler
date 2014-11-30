@@ -32,4 +32,4 @@ def get_prime_divisor(number):
         if number % i == 0:
             print('Prime divisor : %d' % i)
 
-get_prime_divisor(int(input('For which number do you want to find its greatest prime divisor ? : ')))
+get_prime_divisor(int(input('Which number do you want to decompose ? : ')))
