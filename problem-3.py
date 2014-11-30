@@ -16,9 +16,8 @@ def prime_numbers(limit):
         if is_number_prime:
             primes.append(number)
             yield number
-            number += 2
-        else:
-            number += 2
+
+        number += 2
 
         is_number_prime = True
 
